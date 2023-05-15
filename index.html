@@ -25,6 +25,33 @@ a:active {color:#010101;}
 a:hover {color:#010101;} 
 a:link, a:visited, a:active {text-decoration:none;}
 
+	/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.contenedor::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenedor::-webkit-scrollbar:vertical {
+    width:11px;
+}
+
+.contenedor::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenedor::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+    background-color:  #ffc72a;
+    border-radius: 8px;
+    border: 2px solid #002f87;
+}
+
+.contenedor::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
 </style>
 </head>
 
